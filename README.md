@@ -19,7 +19,7 @@ change
       return menuScreenDesktop(context);      
     } else if (width > 600 && width < 1050) {
       return menuScreenTablet(context);
-    } else if (width < 600) {
+    } else if (width < 630) {
       return menuScreenPhone(context);
     } else {
       return menuScreenDesktop(context);
